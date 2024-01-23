@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/aceld/zinx/zconf"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zlog"
+	"github.com/VernHe/zinx/zconf"
+	"github.com/VernHe/zinx/ziface"
+	"github.com/VernHe/zinx/zlog"
 )
 
 const (

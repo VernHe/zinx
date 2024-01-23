@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aceld/zinx/zlog"
+	"github.com/VernHe/zinx/zlog"
 )
 
 const (

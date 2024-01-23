@@ -1,17 +1,17 @@
 package c_router
 
 import (
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zlog"
-	"github.com/aceld/zinx/znet"
+	"github.com/VernHe/zinx/ziface"
+	"github.com/VernHe/zinx/zlog"
+	"github.com/VernHe/zinx/znet"
 )
 
-//ping test 自定义路由
+// ping test 自定义路由
 type PingRouter struct {
 	znet.BaseRouter
 }
 
-//Ping Handle
+// Ping Handle
 func (this *PingRouter) Handle(request ziface.IRequest) {
 	zlog.Debug("Call PingRouter Handle")
 

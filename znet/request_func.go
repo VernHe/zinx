@@ -1,6 +1,6 @@
 package znet
 
-import "github.com/aceld/zinx/ziface"
+import "github.com/VernHe/zinx/ziface"
 
 type RequestFunc struct {
 	ziface.BaseRequest

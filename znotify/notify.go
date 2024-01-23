@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zlog"
-	"github.com/aceld/zinx/zutils"
+	"github.com/VernHe/zinx/ziface"
+	"github.com/VernHe/zinx/zlog"
+	"github.com/VernHe/zinx/zutils"
 )
 
 // ConnIDMap Establish a structure that maps user-defined IDs to connections

@@ -3,8 +3,8 @@ package znet
 import (
 	"time"
 
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zlog"
+	"github.com/VernHe/zinx/ziface"
+	"github.com/VernHe/zinx/zlog"
 )
 
 type HeartbeatChecker struct {

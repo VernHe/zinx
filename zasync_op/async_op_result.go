@@ -9,8 +9,8 @@ package zasync_op
 import (
 	"sync/atomic"
 
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/znet"
+	"github.com/VernHe/zinx/ziface"
+	"github.com/VernHe/zinx/znet"
 )
 
 type AsyncOpResult struct {

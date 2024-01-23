@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aceld/zinx/ziface"
+	"github.com/VernHe/zinx/ziface"
 )
 
 // run in terminal:

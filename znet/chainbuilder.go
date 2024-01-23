@@ -7,8 +7,8 @@
 package znet
 
 import (
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zinterceptor"
+	"github.com/VernHe/zinx/ziface"
+	"github.com/VernHe/zinx/zinterceptor"
 )
 
 // chainBuilder is a builder for creating a chain of interceptors.

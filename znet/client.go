@@ -6,11 +6,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/aceld/zinx/zconf"
-	"github.com/aceld/zinx/zdecoder"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zlog"
-	"github.com/aceld/zinx/zpack"
+	"github.com/VernHe/zinx/zconf"
+	"github.com/VernHe/zinx/zdecoder"
+	"github.com/VernHe/zinx/ziface"
+	"github.com/VernHe/zinx/zlog"
+	"github.com/VernHe/zinx/zpack"
 	"github.com/gorilla/websocket"
 )
 

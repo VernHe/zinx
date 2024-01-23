@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zinx_app_demo/mmo_game/pb"
-	"github.com/aceld/zinx/znet"
+	"github.com/VernHe/zinx/ziface"
+	"github.com/VernHe/zinx/zinx_app_demo/mmo_game/pb"
+	"github.com/VernHe/zinx/znet"
 	"github.com/golang/protobuf/proto"
 	"os"
 	"os/signal"

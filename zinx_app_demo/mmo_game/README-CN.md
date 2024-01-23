@@ -24,7 +24,7 @@
 
 ## 三、Zinx 开发文档
 
-[ < Zinx Wiki : English > ](https://github.com/aceld/zinx/wiki)
+[ < Zinx Wiki : English > ](https://github.com/VernHe/zinx/wiki)
 
 [ < Zinx 文档 : 简体中文> ](https://www.yuque.com/aceld/tsgooa/sbvzgczh3hqz8q3l)
 
