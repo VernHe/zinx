@@ -1,7 +1,6 @@
 package znet
 
 import (
-	"fmt"
 	"time"
 
 	"github.com/aceld/zinx/ziface"
@@ -43,8 +42,9 @@ func HeatBeatDefaultHandle(req ziface.IRequest) {
 }
 
 func makeDefaultMsg(conn ziface.IConnection) []byte {
-	msg := fmt.Sprintf("heartbeat [%s->%s]", conn.LocalAddr(), conn.RemoteAddr())
-	return []byte(msg)
+	jsonStr := `{"time":"` + time.Now().Format(time.DateTime) + `"}`
+	// 将字符串转换为字节切片并在末尾添加 \r\n 作为消息分隔符
+	return []byte(jsonStr + "\r\n")
 }
 
 func notAliveDefaultFunc(conn ziface.IConnection) {
